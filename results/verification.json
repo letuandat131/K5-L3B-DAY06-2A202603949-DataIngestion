@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-11-14T06:42:30+00:00",
+  "new_benchmark_queries": 0,
+  "frozen_input_hashes_match": true,
+  "trace_count": 60,
+  "dev_before_test": true,
+  "metrics_recomputed_from_saved_hits": true,
+  "selected_on_dev": "B",
+  "non_whitespace_corpus_characters_preserved_by_all_chunkers": true,
+  "B_C_chunks_equal": true,
+  "B_C_top3_equal_queries": 20,
+  "persistent_store_fresh_reopen": {
+    "A": {
+      "points": 217,
+      "dimensions": 384,
+      "metric": "Cosine"
+    },
+    "B": {
+      "points": 273,
+      "dimensions": 384,
+      "metric": "Cosine"
+    },
+    "C": {
+      "points": 273,
+      "dimensions": 384,
+      "metric": "Cosine"
+    }
+  },
+  "model_file_checksums_match": true,
+  "audit_label_counts": {
+    "coherence": 30,
+    "grounding": 15,
+    "metadata_test": 45,
+    "filter_queries": 15
+  },
+  "student_reviewed": true,
+  "recorded_pytest_result": {
+    "tests": 15,
+    "failures": 0,
+    "errors": 0,
+    "timestamp": "2026-11-14T13:42:18.637700+07:00",
+    "rerun_in_this_check": true
+  },
+  "experiment_csv_matches": true,
+  "authored_markdown_local_links_exist": true,
+  "candidate_git_file_count": 59,
+  "known_secret_pattern_matches": 0,
+  "ignored_assets_excluded_from_candidate_files": true,
+  "teacher_checkout_clean": true,
+  "review_limitations": "Static artifact checks, fresh pytest rerun, and student-confirmed audit review completed against saved traces and Qdrant persistence. Secret scan covers known key patterns; no new benchmark rerun was performed after freeze."
+}

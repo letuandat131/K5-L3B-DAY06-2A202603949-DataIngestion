@@ -1,0 +1,1124 @@
+[
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 1,
+    "selected": false,
+    "characters": 77,
+    "raw_characters": 146,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 2,
+    "selected": false,
+    "characters": 381,
+    "raw_characters": 854,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 3,
+    "selected": false,
+    "characters": 1532,
+    "raw_characters": 1913,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 4,
+    "selected": false,
+    "characters": 1235,
+    "raw_characters": 3851,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 5,
+    "selected": false,
+    "characters": 1601,
+    "raw_characters": 2389,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 6,
+    "selected": true,
+    "characters": 3060,
+    "raw_characters": 3982,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 7,
+    "selected": true,
+    "characters": 3061,
+    "raw_characters": 3712,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 8,
+    "selected": true,
+    "characters": 1829,
+    "raw_characters": 2135,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 9,
+    "selected": true,
+    "characters": 2712,
+    "raw_characters": 3663,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 10,
+    "selected": false,
+    "characters": 1855,
+    "raw_characters": 2137,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 11,
+    "selected": true,
+    "characters": 2734,
+    "raw_characters": 3019,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 12,
+    "selected": true,
+    "characters": 2930,
+    "raw_characters": 3644,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 13,
+    "selected": true,
+    "characters": 3097,
+    "raw_characters": 3368,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 14,
+    "selected": true,
+    "characters": 3010,
+    "raw_characters": 3320,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 15,
+    "selected": false,
+    "characters": 1546,
+    "raw_characters": 1860,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 16,
+    "selected": false,
+    "characters": 0,
+    "raw_characters": 344,
+    "empty": true,
+    "extraction_error": null,
+    "extraction_warnings": [
+      "Rotated text discovered. Output will be incomplete."
+    ]
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 17,
+    "selected": true,
+    "characters": 2603,
+    "raw_characters": 2880,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 18,
+    "selected": true,
+    "characters": 2956,
+    "raw_characters": 3658,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 19,
+    "selected": true,
+    "characters": 2746,
+    "raw_characters": 3075,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 20,
+    "selected": true,
+    "characters": 3083,
+    "raw_characters": 3365,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 21,
+    "selected": true,
+    "characters": 2891,
+    "raw_characters": 3168,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 22,
+    "selected": true,
+    "characters": 2789,
+    "raw_characters": 3087,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 23,
+    "selected": true,
+    "characters": 1635,
+    "raw_characters": 1943,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 24,
+    "selected": true,
+    "characters": 1846,
+    "raw_characters": 2253,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 25,
+    "selected": true,
+    "characters": 1250,
+    "raw_characters": 1551,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 26,
+    "selected": true,
+    "characters": 2660,
+    "raw_characters": 3388,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 27,
+    "selected": true,
+    "characters": 2400,
+    "raw_characters": 2965,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 28,
+    "selected": true,
+    "characters": 2261,
+    "raw_characters": 3263,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 29,
+    "selected": true,
+    "characters": 2431,
+    "raw_characters": 3128,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 30,
+    "selected": true,
+    "characters": 2722,
+    "raw_characters": 3083,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 31,
+    "selected": true,
+    "characters": 2047,
+    "raw_characters": 3345,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 32,
+    "selected": true,
+    "characters": 2285,
+    "raw_characters": 3385,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 33,
+    "selected": true,
+    "characters": 2698,
+    "raw_characters": 3151,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 34,
+    "selected": true,
+    "characters": 2061,
+    "raw_characters": 3242,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 35,
+    "selected": true,
+    "characters": 2021,
+    "raw_characters": 3365,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 36,
+    "selected": true,
+    "characters": 2349,
+    "raw_characters": 3125,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 37,
+    "selected": true,
+    "characters": 2222,
+    "raw_characters": 3138,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 38,
+    "selected": true,
+    "characters": 2625,
+    "raw_characters": 3147,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 39,
+    "selected": false,
+    "characters": 435,
+    "raw_characters": 740,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 40,
+    "selected": false,
+    "characters": 3079,
+    "raw_characters": 3388,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 41,
+    "selected": false,
+    "characters": 2989,
+    "raw_characters": 3339,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 42,
+    "selected": false,
+    "characters": 2027,
+    "raw_characters": 2318,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 43,
+    "selected": false,
+    "characters": 2660,
+    "raw_characters": 3086,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 44,
+    "selected": false,
+    "characters": 2594,
+    "raw_characters": 2936,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 45,
+    "selected": false,
+    "characters": 2668,
+    "raw_characters": 3110,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 46,
+    "selected": false,
+    "characters": 2126,
+    "raw_characters": 2433,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 47,
+    "selected": false,
+    "characters": 2405,
+    "raw_characters": 2890,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai100-1-2023",
+    "page": 48,
+    "selected": false,
+    "characters": 88,
+    "raw_characters": 100,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 1,
+    "selected": false,
+    "characters": 233,
+    "raw_characters": 494,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 2,
+    "selected": false,
+    "characters": 444,
+    "raw_characters": 1034,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 3,
+    "selected": false,
+    "characters": 2287,
+    "raw_characters": 2299,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 4,
+    "selected": false,
+    "characters": 729,
+    "raw_characters": 1108,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 5,
+    "selected": true,
+    "characters": 2727,
+    "raw_characters": 2828,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 6,
+    "selected": true,
+    "characters": 3318,
+    "raw_characters": 3562,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 7,
+    "selected": true,
+    "characters": 3628,
+    "raw_characters": 3782,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 8,
+    "selected": true,
+    "characters": 3514,
+    "raw_characters": 3894,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 9,
+    "selected": true,
+    "characters": 3256,
+    "raw_characters": 3552,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 10,
+    "selected": true,
+    "characters": 3218,
+    "raw_characters": 3329,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 11,
+    "selected": true,
+    "characters": 3451,
+    "raw_characters": 3636,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 12,
+    "selected": true,
+    "characters": 3354,
+    "raw_characters": 3471,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 13,
+    "selected": true,
+    "characters": 2904,
+    "raw_characters": 3030,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 14,
+    "selected": true,
+    "characters": 3224,
+    "raw_characters": 3362,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 15,
+    "selected": true,
+    "characters": 3292,
+    "raw_characters": 3485,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 16,
+    "selected": true,
+    "characters": 2914,
+    "raw_characters": 3078,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 17,
+    "selected": true,
+    "characters": 1869,
+    "raw_characters": 2578,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 18,
+    "selected": true,
+    "characters": 2571,
+    "raw_characters": 3664,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 19,
+    "selected": true,
+    "characters": 2182,
+    "raw_characters": 4356,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 20,
+    "selected": true,
+    "characters": 2310,
+    "raw_characters": 3255,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 21,
+    "selected": false,
+    "characters": 2539,
+    "raw_characters": 3710,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 22,
+    "selected": false,
+    "characters": 2603,
+    "raw_characters": 3657,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 23,
+    "selected": false,
+    "characters": 1833,
+    "raw_characters": 2929,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 24,
+    "selected": false,
+    "characters": 2250,
+    "raw_characters": 3382,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 25,
+    "selected": false,
+    "characters": 2685,
+    "raw_characters": 4028,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 26,
+    "selected": false,
+    "characters": 2963,
+    "raw_characters": 3997,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 27,
+    "selected": false,
+    "characters": 2517,
+    "raw_characters": 3688,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 28,
+    "selected": false,
+    "characters": 2042,
+    "raw_characters": 2814,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 29,
+    "selected": false,
+    "characters": 2298,
+    "raw_characters": 3358,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 30,
+    "selected": false,
+    "characters": 2513,
+    "raw_characters": 4196,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 31,
+    "selected": false,
+    "characters": 2433,
+    "raw_characters": 3654,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 32,
+    "selected": false,
+    "characters": 2413,
+    "raw_characters": 3558,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 33,
+    "selected": false,
+    "characters": 2743,
+    "raw_characters": 3717,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 34,
+    "selected": false,
+    "characters": 2118,
+    "raw_characters": 3548,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 35,
+    "selected": false,
+    "characters": 1837,
+    "raw_characters": 3031,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 36,
+    "selected": false,
+    "characters": 2416,
+    "raw_characters": 4335,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 37,
+    "selected": false,
+    "characters": 2837,
+    "raw_characters": 4086,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 38,
+    "selected": false,
+    "characters": 1369,
+    "raw_characters": 1878,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 39,
+    "selected": false,
+    "characters": 2215,
+    "raw_characters": 3054,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 40,
+    "selected": false,
+    "characters": 3002,
+    "raw_characters": 3913,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 41,
+    "selected": false,
+    "characters": 1370,
+    "raw_characters": 1988,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 42,
+    "selected": false,
+    "characters": 2139,
+    "raw_characters": 3029,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 43,
+    "selected": false,
+    "characters": 2709,
+    "raw_characters": 3730,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 44,
+    "selected": false,
+    "characters": 2453,
+    "raw_characters": 4043,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 45,
+    "selected": false,
+    "characters": 2540,
+    "raw_characters": 3456,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 46,
+    "selected": false,
+    "characters": 2664,
+    "raw_characters": 3838,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 47,
+    "selected": false,
+    "characters": 2560,
+    "raw_characters": 4012,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 48,
+    "selected": false,
+    "characters": 2555,
+    "raw_characters": 3552,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 49,
+    "selected": false,
+    "characters": 2277,
+    "raw_characters": 3092,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 50,
+    "selected": false,
+    "characters": 370,
+    "raw_characters": 591,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 51,
+    "selected": false,
+    "characters": 2957,
+    "raw_characters": 3230,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 52,
+    "selected": false,
+    "characters": 2837,
+    "raw_characters": 3515,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 53,
+    "selected": false,
+    "characters": 3103,
+    "raw_characters": 3245,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 54,
+    "selected": false,
+    "characters": 3425,
+    "raw_characters": 3579,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 55,
+    "selected": false,
+    "characters": 3389,
+    "raw_characters": 3552,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 56,
+    "selected": false,
+    "characters": 3249,
+    "raw_characters": 3376,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 57,
+    "selected": false,
+    "characters": 1421,
+    "raw_characters": 1548,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 58,
+    "selected": false,
+    "characters": 2666,
+    "raw_characters": 2750,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 59,
+    "selected": false,
+    "characters": 2934,
+    "raw_characters": 3100,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 60,
+    "selected": false,
+    "characters": 2849,
+    "raw_characters": 2944,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 61,
+    "selected": false,
+    "characters": 2867,
+    "raw_characters": 2980,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 62,
+    "selected": false,
+    "characters": 2739,
+    "raw_characters": 2820,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 63,
+    "selected": false,
+    "characters": 2707,
+    "raw_characters": 2827,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  },
+  {
+    "document_id": "nist-ai600-1-2024",
+    "page": 64,
+    "selected": false,
+    "characters": 866,
+    "raw_characters": 991,
+    "empty": false,
+    "extraction_error": null,
+    "extraction_warnings": []
+  }
+]

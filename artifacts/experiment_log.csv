@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,640,0,document_id/source/physical_page/year/document_type/character_offsets,none,Xenova/all-MiniLM-L6-v2@751bff37182d3f1213fa05d7196b954e230abad9;ONNX-int8;384d;cosine,Fixed-window baseline at 640 characters.,8/15,13/15,1/5,3/5,"217 chunks; filter compliance dev 2/3, test 2/2; coherence 1.10/2; grounding 1.80/2. Baseline has boundary cuts."
+B,paragraph,640,0,document_id/source/physical_page/year/document_type/character_offsets,none,Xenova/all-MiniLM-L6-v2@751bff37182d3f1213fa05d7196b954e230abad9;ONNX-int8;384d;cosine,Changing only boundary selection to paragraph/sentence may preserve evidence and improve top1/coherence versus A.,10/15,13/15,4/5,4/5,273 chunks; selected on dev before any test query; coherence 1.50/2; grounding 1.80/2; Q13 misses maintaining.
+C,paragraph,640,0,document_id/source/physical_page/year/document_type/character_offsets,year from user question only,Xenova/all-MiniLM-L6-v2@751bff37182d3f1213fa05d7196b954e230abad9;ONNX-int8;384d;cosine,Changing only user-supplied year filtering may constrain provenance without changing chunks/model versus B.,10/15,13/15,4/5,4/5,"273 chunks identical to B; applies year only when supplied; all top3 results identical to B in this corpus, no measured accuracy gain."

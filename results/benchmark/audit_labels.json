@@ -1,0 +1,1622 @@
+{
+  "reviewed_at": "2026-11-14T06:15:00+00:00",
+  "reviewer": "Lê Tuấn Đạt (2A202603949) — đối chiếu trực tiếp từ nguồn với hỗ trợ AI",
+  "student_reviewed": true,
+  "method": {
+    "coherence": "Read 20 unique A/B chunks at the 10 frozen positions; C has identical B chunk IDs/text and receives paired labels. Labels assess actual text, not string-match Hit.",
+    "grounding": "Read all unique A/B top-3 test contexts and source references; verify C top-3 IDs/order identical to B. Score content sufficiency separately from exact-quote Hit. Q04/A uses combined evidence.",
+    "metadata": "Inspected source pages and publication metadata against manifest, normalized physical pages, and character offsets across all 45 test hit records (student review with AI-assisted deterministic checks).",
+    "filter": "Check all three retrieved metadata payloads against the year explicitly present in each of the five filter questions. A/B do not enforce a filter; observed compliance is still reported.",
+    "limitations": "Self-assessed by the author with AI assistance; not blinded to retrieval metrics. Small, prefix-biased coherence sample and five shared-topic test questions."
+  },
+  "scales": {
+    "coherence": {
+      "0": "Missing subject/cut meaning prevents independent understanding",
+      "1": "Partly understandable; context or sentence missing",
+      "2": "Self-contained with complete meaning"
+    },
+    "grounding": {
+      "0": "No evidence",
+      "1": "Some evidence but missing required condition/context",
+      "2": "Enough to answer with traceable sources"
+    }
+  },
+  "coherence": [
+    {
+      "strategy": "A",
+      "anchor_id": "S01",
+      "chunk_id": "40c713da34643510d2cea0e9",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 6,
+      "score": 1,
+      "reason": "Hiểu được lợi ích/rủi ro AI, nhưng câu cuối bị cắt giữa từ “shor”, mất phần phân loại thời hạn."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S02",
+      "chunk_id": "e07ba184834f117938a4d69d",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 7,
+      "score": 1,
+      "reason": "Đoạn đầu mô tả framework hoàn chỉnh; câu sau dừng ở “refe”, thiếu phần tham chiếu và kết ý."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S03",
+      "chunk_id": "13fc0ef97ed8dc6ecc07eb18",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 8,
+      "score": 1,
+      "reason": "Mở bằng danh sách thuộc tính thiếu chủ thể; đoạn bốn chức năng phía sau còn bị cắt ở “stages o”."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S04",
+      "chunk_id": "6293faa8885b03518333e19a",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 9,
+      "score": 1,
+      "reason": "Giữ định nghĩa risk và ngữ cảnh, nhưng câu tiếp theo dừng ở “impacts, or c”, không giữ trọn ý cuối."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S05",
+      "chunk_id": "36cc775f9147c7bf59b5d603",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 11,
+      "score": 1,
+      "reason": "Đọc được giới hạn của metric; phần lưu ý cuối bị cắt giữa “lack cr”, mất ý về nuance."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S06",
+      "chunk_id": "0b0cf054cc88940a4f17b624",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "score": 1,
+      "reason": "Hiểu phạm vi GAI Profile nhưng định nghĩa profile dừng giữa “appl”, thiếu đối tượng áp dụng."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S07",
+      "chunk_id": "7e26799ee6a5e8c3fb994810",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 6,
+      "score": 1,
+      "reason": "Đủ bốn chủ đề của working group; có từ “Future” đứng lẻ ở cuối, báo hiệu mất câu tiếp."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S08",
+      "chunk_id": "85970b5c57baad580167b57c",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 7,
+      "score": 1,
+      "reason": "Bắt đầu bằng phần tiếp nối “the abuse, misuse” thiếu chủ thể trước đó; ví dụ thời hạn hiểu được nhưng câu cuối lại bị cắt."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S09",
+      "chunk_id": "2070ca9bfee2b442dd254f5d",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 8,
+      "score": 2,
+      "reason": "Ba mục CBRN, confabulation và dangerous content có nhãn và định nghĩa; chunk kết ở câu hoàn chỉnh, tự hiểu được."
+    },
+    {
+      "strategy": "A",
+      "anchor_id": "S10",
+      "chunk_id": "b65cb1c4885c0aff194878a8",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 9,
+      "score": 1,
+      "reason": "Bắt đầu ở phần cuối rủi ro information security thiếu nhãn; mục intellectual property đọc được nhưng mục tiếp dừng giữa “synt”."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S01",
+      "chunk_id": "ae251bcec3770d9ca1127ba8",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 6,
+      "score": 2,
+      "reason": "Một đoạn ba câu hoàn chỉnh: tiềm năng AI, lợi ích và tác hại; chủ thể/ngữ cảnh rõ."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S02",
+      "chunk_id": "a0eec4d750a95a2a4eea13a2",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 7,
+      "score": 2,
+      "reason": "Giữ trọn đoạn framework tự nguyện, bảo vệ quyền và độc lập use case; tự hiểu được."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S03",
+      "chunk_id": "f9741d8e736b8964334271f6",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 8,
+      "score": 0,
+      "reason": "Chỉ có danh sách “valid and reliable ... fair ...”; không có chủ thể/tiêu đề cho biết đây là thuộc tính đáng tin của AI, nên không đủ ngữ cảnh để hiểu độc lập."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S04",
+      "chunk_id": "7eddc6fa34c1dd9b5ceae5af",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 9,
+      "score": 2,
+      "reason": "Có heading và hai câu trọn vẹn về khung risk; kết thúc ở heading tiếp theo, không cắt giữa ý nội dung."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S05",
+      "chunk_id": "bf1733e06b94efc5e1f1f9ba",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 11,
+      "score": 2,
+      "reason": "Giữ trọn đoạn Availability of reliable metrics và các giới hạn/đánh đổi cần thiết."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S06",
+      "chunk_id": "640a857676019deef5dd00ed",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "score": 2,
+      "reason": "Giữ trọn đoạn giới thiệu Profile, phạm vi và cách dùng với AI RMF; chủ thể rõ."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S07",
+      "chunk_id": "d6268db66bb808dda9ffcc4a",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 6,
+      "score": 2,
+      "reason": "Giữ trọn đoạn về working group, bốn nhóm quan tâm và suggested actions."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S08",
+      "chunk_id": "657bc89e1dfd95cfbd8bf3dd",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 7,
+      "score": 1,
+      "reason": "Vẫn bắt đầu bằng phần tiếp nối “the abuse, misuse” từ trang trước; các ví dụ sau đủ câu nhưng thiếu ngữ cảnh mở đầu."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S09",
+      "chunk_id": "a868fe6a98ad9b05c7da98fd",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 8,
+      "score": 1,
+      "reason": "Hai định nghĩa đầu đầy đủ nhưng kết thúc ở nhãn “3.” không có tiêu đề/nội dung tiếp; ranh giới câu nhầm số thứ tự."
+    },
+    {
+      "strategy": "B",
+      "anchor_id": "S10",
+      "chunk_id": "3488daae0340d97cad8ceec5",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 9,
+      "score": 1,
+      "reason": "Mở bằng đuôi câu từ rủi ro trước, có định nghĩa IP nhưng kết ở nhãn “11.”; thiếu ngữ cảnh ở cả hai biên."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S01",
+      "chunk_id": "ae251bcec3770d9ca1127ba8",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 6,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Một đoạn ba câu hoàn chỉnh: tiềm năng AI, lợi ích và tác hại; chủ thể/ngữ cảnh rõ."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S02",
+      "chunk_id": "a0eec4d750a95a2a4eea13a2",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 7,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Giữ trọn đoạn framework tự nguyện, bảo vệ quyền và độc lập use case; tự hiểu được."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S03",
+      "chunk_id": "f9741d8e736b8964334271f6",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 8,
+      "score": 0,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Chỉ có danh sách “valid and reliable ... fair ...”; không có chủ thể/tiêu đề cho biết đây là thuộc tính đáng tin của AI, nên không đủ ngữ cảnh để hiểu độc lập."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S04",
+      "chunk_id": "7eddc6fa34c1dd9b5ceae5af",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 9,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Có heading và hai câu trọn vẹn về khung risk; kết thúc ở heading tiếp theo, không cắt giữa ý nội dung."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S05",
+      "chunk_id": "bf1733e06b94efc5e1f1f9ba",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 11,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Giữ trọn đoạn Availability of reliable metrics và các giới hạn/đánh đổi cần thiết."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S06",
+      "chunk_id": "640a857676019deef5dd00ed",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Giữ trọn đoạn giới thiệu Profile, phạm vi và cách dùng với AI RMF; chủ thể rõ."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S07",
+      "chunk_id": "d6268db66bb808dda9ffcc4a",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 6,
+      "score": 2,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Giữ trọn đoạn về working group, bốn nhóm quan tâm và suggested actions."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S08",
+      "chunk_id": "657bc89e1dfd95cfbd8bf3dd",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 7,
+      "score": 1,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Vẫn bắt đầu bằng phần tiếp nối “the abuse, misuse” từ trang trước; các ví dụ sau đủ câu nhưng thiếu ngữ cảnh mở đầu."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S09",
+      "chunk_id": "a868fe6a98ad9b05c7da98fd",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 8,
+      "score": 1,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Hai định nghĩa đầu đầy đủ nhưng kết thúc ở nhãn “3.” không có tiêu đề/nội dung tiếp; ranh giới câu nhầm số thứ tự."
+    },
+    {
+      "strategy": "C",
+      "anchor_id": "S10",
+      "chunk_id": "3488daae0340d97cad8ceec5",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 9,
+      "score": 1,
+      "reason": "C có cùng chunk/text với B tại vị trí này. Mở bằng đuôi câu từ rủi ro trước, có định nghĩa IP nhưng kết ở nhãn “11.”; thiếu ngữ cảnh ở cả hai biên."
+    }
+  ],
+  "grounding": [
+    {
+      "strategy": "A",
+      "id": "Q04",
+      "split": "test",
+      "chunk_ids": [
+        "21be437b96a8897b52177a8f",
+        "5f66aefec3e1e292cf0bdd10",
+        "ad8919923e9f83e6af9e0bfd"
+      ],
+      "score": 2,
+      "reason": "Đủ khi đọc hợp ba chunk: p22 rank1 gắn explainability với “how”, interpretability với “why”; p21 rank2 mô tả cách hệ thống hoạt động, rank3 nêu nghĩa của output theo mục đích. Quote gold bị cắt nên Hit@3=0; đánh giá này là hợp bằng chứng, không đổi nhãn Hit."
+    },
+    {
+      "strategy": "A",
+      "id": "Q08",
+      "split": "test",
+      "chunk_ids": [
+        "f65ed6f4c52388ce0b16a338",
+        "74bb4ac620bce6dea69c786f",
+        "b94769effacce6e7af67b758"
+      ],
+      "score": 1,
+      "reason": "p33 rank3 chỉ giữ đuôi “...regularly while in operation”; p19 rank2 hỗ trợ ongoing testing nhưng top-3 không còn phần before deployment. Thiếu một thời điểm bắt buộc."
+    },
+    {
+      "strategy": "A",
+      "id": "Q13",
+      "split": "test",
+      "chunk_ids": [
+        "e0a2fb1be09345f2b628411d",
+        "17d62a72ad62acea38c164d7",
+        "698fa8e1c4745354daa9f521"
+      ],
+      "score": 2,
+      "reason": "p12 rank2 có đủ training, maintaining và operating/running inference, cùng hệ quả energy/environmental footprint; truy được PDF và trang."
+    },
+    {
+      "strategy": "A",
+      "id": "Q17",
+      "split": "test",
+      "chunk_ids": [
+        "49b81597417d27f6530f37c8",
+        "b7eb86d0b9832309149f7b3f",
+        "bde695e8043a62ba9c450b54"
+      ],
+      "score": 2,
+      "reason": "p14 rank2 nêu cả giảm rào cản offensive capabilities và tăng attack surface; rank1 kém liên quan không làm mất bằng chứng đủ ở rank2."
+    },
+    {
+      "strategy": "A",
+      "id": "Q20",
+      "split": "test",
+      "chunk_ids": [
+        "0de1bb70ba9f350f9524bd66",
+        "567563f9619e9a0a62a4e049",
+        "22e6ad5c216711becd0ad715"
+      ],
+      "score": 2,
+      "reason": "p38 rank1 định nghĩa profile và đủ requirements, risk tolerance, resources; rank2 bổ sung ngữ cảnh áp dụng. Nguồn thay thế này đã đăng ký trước chạy."
+    },
+    {
+      "strategy": "B",
+      "id": "Q04",
+      "split": "test",
+      "chunk_ids": [
+        "735977851d2cdbd24e8a2e9c",
+        "1cc85341622c48b96abecacb",
+        "2c40d3fc7532ea8c04dcc326"
+      ],
+      "score": 2,
+      "reason": "p21 rank1 giữ nguyên đối chiếu mechanisms với meaning of outputs in context; p22 rank3 bổ sung why. Có đủ hai vế và nguồn."
+    },
+    {
+      "strategy": "B",
+      "id": "Q08",
+      "split": "test",
+      "chunk_ids": [
+        "5255fc1c1d2b7233d815f71a",
+        "050edc76d91347de0802b615",
+        "1a15b070f4acb02aa1d54f2d"
+      ],
+      "score": 2,
+      "reason": "p33 rank1 giữ nguyên câu tested before deployment and regularly while in operation; đủ hai mốc thời gian và ngữ cảnh MEASURE."
+    },
+    {
+      "strategy": "B",
+      "id": "Q13",
+      "split": "test",
+      "chunk_ids": [
+        "0cdd8cce9c8848ae9f3e6f39",
+        "ae251bcec3770d9ca1127ba8",
+        "a5afa64303ccf1bee8de8963"
+      ],
+      "score": 1,
+      "reason": "p12 rank1 nói inference, training và tuning có tác động môi trường, nhưng không có maintaining; hai chunk còn lại không bổ sung ý thiếu. Chỉ hỗ trợ một phần đáp án."
+    },
+    {
+      "strategy": "B",
+      "id": "Q17",
+      "split": "test",
+      "chunk_ids": [
+        "0ffe82874e82f64aa179f11d",
+        "79f923a0f0a726eb1a82a9d3",
+        "5516ece6d8712b50110619e5"
+      ],
+      "score": 2,
+      "reason": "p14 rank1 chứa đủ hai rủi ro information security và ví dụ prompt injection/data poisoning; đủ để trả lời dù hai kết quả sau không trực tiếp cần."
+    },
+    {
+      "strategy": "B",
+      "id": "Q20",
+      "split": "test",
+      "chunk_ids": [
+        "d1a177653b7d855b094fc006",
+        "2ea2e177684f09830863bd78",
+        "2701ab8cfbb0b62b8bb11e3b"
+      ],
+      "score": 2,
+      "reason": "p5 rank1 và p38 rank2 đều có định nghĩa cùng ba ràng buộc requirements/risk tolerance/resources; đều là nguồn gold đã chốt."
+    },
+    {
+      "strategy": "C",
+      "id": "Q04",
+      "split": "test",
+      "chunk_ids": [
+        "735977851d2cdbd24e8a2e9c",
+        "1cc85341622c48b96abecacb",
+        "2c40d3fc7532ea8c04dcc326"
+      ],
+      "score": 2,
+      "reason": "Top-3 C trùng B ở cả ba ID/thứ tự; đã đối chiếu với trace C. p21 rank1 giữ nguyên đối chiếu mechanisms với meaning of outputs in context; p22 rank3 bổ sung why. Có đủ hai vế và nguồn."
+    },
+    {
+      "strategy": "C",
+      "id": "Q08",
+      "split": "test",
+      "chunk_ids": [
+        "5255fc1c1d2b7233d815f71a",
+        "050edc76d91347de0802b615",
+        "1a15b070f4acb02aa1d54f2d"
+      ],
+      "score": 2,
+      "reason": "Top-3 C trùng B ở cả ba ID/thứ tự; đã đối chiếu với trace C. p33 rank1 giữ nguyên câu tested before deployment and regularly while in operation; đủ hai mốc thời gian và ngữ cảnh MEASURE."
+    },
+    {
+      "strategy": "C",
+      "id": "Q13",
+      "split": "test",
+      "chunk_ids": [
+        "0cdd8cce9c8848ae9f3e6f39",
+        "ae251bcec3770d9ca1127ba8",
+        "a5afa64303ccf1bee8de8963"
+      ],
+      "score": 1,
+      "reason": "Top-3 C trùng B ở cả ba ID/thứ tự; đã đối chiếu với trace C. p12 rank1 nói inference, training và tuning có tác động môi trường, nhưng không có maintaining; hai chunk còn lại không bổ sung ý thiếu. Chỉ hỗ trợ một phần đáp án."
+    },
+    {
+      "strategy": "C",
+      "id": "Q17",
+      "split": "test",
+      "chunk_ids": [
+        "0ffe82874e82f64aa179f11d",
+        "79f923a0f0a726eb1a82a9d3",
+        "5516ece6d8712b50110619e5"
+      ],
+      "score": 2,
+      "reason": "Top-3 C trùng B ở cả ba ID/thứ tự; đã đối chiếu với trace C. p14 rank1 chứa đủ hai rủi ro information security và ví dụ prompt injection/data poisoning; đủ để trả lời dù hai kết quả sau không trực tiếp cần."
+    },
+    {
+      "strategy": "C",
+      "id": "Q20",
+      "split": "test",
+      "chunk_ids": [
+        "d1a177653b7d855b094fc006",
+        "2ea2e177684f09830863bd78",
+        "2701ab8cfbb0b62b8bb11e3b"
+      ],
+      "score": 2,
+      "reason": "Top-3 C trùng B ở cả ba ID/thứ tự; đã đối chiếu với trace C. p5 rank1 và p38 rank2 đều có định nghĩa cùng ba ràng buộc requirements/risk tolerance/resources; đều là nguồn gold đã chốt."
+    }
+  ],
+  "metadata": [
+    {
+      "strategy": "A",
+      "id": "Q04",
+      "rank": 1,
+      "chunk_id": "21be437b96a8897b52177a8f",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 22,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q04",
+      "rank": 2,
+      "chunk_id": "5f66aefec3e1e292cf0bdd10",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q04",
+      "rank": 3,
+      "chunk_id": "ad8919923e9f83e6af9e0bfd",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q08",
+      "rank": 1,
+      "chunk_id": "f65ed6f4c52388ce0b16a338",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 33,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q08",
+      "rank": 2,
+      "chunk_id": "74bb4ac620bce6dea69c786f",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 19,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q08",
+      "rank": 3,
+      "chunk_id": "b94769effacce6e7af67b758",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 33,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q13",
+      "rank": 1,
+      "chunk_id": "e0a2fb1be09345f2b628411d",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 12,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q13",
+      "rank": 2,
+      "chunk_id": "17d62a72ad62acea38c164d7",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 12,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q13",
+      "rank": 3,
+      "chunk_id": "698fa8e1c4745354daa9f521",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q17",
+      "rank": 1,
+      "chunk_id": "49b81597417d27f6530f37c8",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 19,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q17",
+      "rank": 2,
+      "chunk_id": "b7eb86d0b9832309149f7b3f",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 14,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q17",
+      "rank": 3,
+      "chunk_id": "bde695e8043a62ba9c450b54",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 16,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q20",
+      "rank": 1,
+      "chunk_id": "0de1bb70ba9f350f9524bd66",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q20",
+      "rank": 2,
+      "chunk_id": "567563f9619e9a0a62a4e049",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "A",
+      "id": "Q20",
+      "rank": 3,
+      "chunk_id": "22e6ad5c216711becd0ad715",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 25,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q04",
+      "rank": 1,
+      "chunk_id": "735977851d2cdbd24e8a2e9c",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q04",
+      "rank": 2,
+      "chunk_id": "1cc85341622c48b96abecacb",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q04",
+      "rank": 3,
+      "chunk_id": "2c40d3fc7532ea8c04dcc326",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 22,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q08",
+      "rank": 1,
+      "chunk_id": "5255fc1c1d2b7233d815f71a",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 33,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q08",
+      "rank": 2,
+      "chunk_id": "050edc76d91347de0802b615",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 19,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q08",
+      "rank": 3,
+      "chunk_id": "1a15b070f4acb02aa1d54f2d",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 34,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q13",
+      "rank": 1,
+      "chunk_id": "0cdd8cce9c8848ae9f3e6f39",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 12,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q13",
+      "rank": 2,
+      "chunk_id": "ae251bcec3770d9ca1127ba8",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 6,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q13",
+      "rank": 3,
+      "chunk_id": "a5afa64303ccf1bee8de8963",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q17",
+      "rank": 1,
+      "chunk_id": "0ffe82874e82f64aa179f11d",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 14,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q17",
+      "rank": 2,
+      "chunk_id": "79f923a0f0a726eb1a82a9d3",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 18,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q17",
+      "rank": 3,
+      "chunk_id": "5516ece6d8712b50110619e5",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 7,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q20",
+      "rank": 1,
+      "chunk_id": "d1a177653b7d855b094fc006",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q20",
+      "rank": 2,
+      "chunk_id": "2ea2e177684f09830863bd78",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "B",
+      "id": "Q20",
+      "rank": 3,
+      "chunk_id": "2701ab8cfbb0b62b8bb11e3b",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q04",
+      "rank": 1,
+      "chunk_id": "735977851d2cdbd24e8a2e9c",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q04",
+      "rank": 2,
+      "chunk_id": "1cc85341622c48b96abecacb",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 21,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q04",
+      "rank": 3,
+      "chunk_id": "2c40d3fc7532ea8c04dcc326",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 22,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q08",
+      "rank": 1,
+      "chunk_id": "5255fc1c1d2b7233d815f71a",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 33,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q08",
+      "rank": 2,
+      "chunk_id": "050edc76d91347de0802b615",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 19,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q08",
+      "rank": 3,
+      "chunk_id": "1a15b070f4acb02aa1d54f2d",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 34,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q13",
+      "rank": 1,
+      "chunk_id": "0cdd8cce9c8848ae9f3e6f39",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 12,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q13",
+      "rank": 2,
+      "chunk_id": "ae251bcec3770d9ca1127ba8",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 6,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q13",
+      "rank": 3,
+      "chunk_id": "a5afa64303ccf1bee8de8963",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q17",
+      "rank": 1,
+      "chunk_id": "0ffe82874e82f64aa179f11d",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 14,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q17",
+      "rank": 2,
+      "chunk_id": "79f923a0f0a726eb1a82a9d3",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 18,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q17",
+      "rank": 3,
+      "chunk_id": "5516ece6d8712b50110619e5",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 7,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q20",
+      "rank": 1,
+      "chunk_id": "d1a177653b7d855b094fc006",
+      "document_id": "nist-ai600-1-2024",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "page": 5,
+      "year": 2024,
+      "document_type": "generative_profile",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q20",
+      "rank": 2,
+      "chunk_id": "2ea2e177684f09830863bd78",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    },
+    {
+      "strategy": "C",
+      "id": "Q20",
+      "rank": 3,
+      "chunk_id": "2701ab8cfbb0b62b8bb11e3b",
+      "document_id": "nist-ai100-1-2023",
+      "source": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "page": 38,
+      "year": 2023,
+      "document_type": "framework",
+      "checks": {
+        "source_matches_manifest_and_page": true,
+        "physical_page_in_selected_source": true,
+        "year_matches_publication": true,
+        "document_type_matches_manifest": true,
+        "text_matches_page_offsets": true
+      },
+      "complete_and_correct": true,
+      "reason": "URL, số trang vật lý và năm khớp snapshot/manifest đã đọc; text khớp đúng slice trang. Không thấy lỗi metadata trong bản ghi này."
+    }
+  ],
+  "filter_checks": [
+    {
+      "strategy": "A",
+      "id": "Q01",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "A",
+      "id": "Q11",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "A",
+      "id": "Q16",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2023
+      ],
+      "top3_compliant": false,
+      "reason": "A/Q16: rank3 là framework 2023, trong khi người dùng yêu cầu Profile 2024; metadata đúng nhưng kết quả vượt phạm vi."
+    },
+    {
+      "strategy": "B",
+      "id": "Q01",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "B",
+      "id": "Q11",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "B",
+      "id": "Q16",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "C",
+      "id": "Q01",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": true,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "C",
+      "id": "Q11",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": true,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "C",
+      "id": "Q16",
+      "split": "dev",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": true,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "A",
+      "id": "Q04",
+      "split": "test",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "A",
+      "id": "Q17",
+      "split": "test",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "B",
+      "id": "Q04",
+      "split": "test",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "B",
+      "id": "Q17",
+      "split": "test",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": false,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "C",
+      "id": "Q04",
+      "split": "test",
+      "requested_filter": {
+        "year": 2023
+      },
+      "filter_applied": true,
+      "retrieved_years": [
+        2023,
+        2023,
+        2023
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    },
+    {
+      "strategy": "C",
+      "id": "Q17",
+      "split": "test",
+      "requested_filter": {
+        "year": 2024
+      },
+      "filter_applied": true,
+      "retrieved_years": [
+        2024,
+        2024,
+        2024
+      ],
+      "top3_compliant": true,
+      "reason": "Cả top-3 đúng năm người dùng yêu cầu."
+    }
+  ]
+}

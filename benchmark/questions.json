@@ -1,0 +1,257 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "type": "metadata",
+    "question": "In the 2023 AI RMF, does NIST prescribe an organization’s risk tolerance?",
+    "expected_answer": "No. The framework helps prioritize risk but does not prescribe risk tolerance.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 12,
+    "evidence_quote": "While the AI RMF can be used to prioritize risk, it does not prescribe risk tolerance.",
+    "filter": {
+      "year": 2023
+    },
+    "filter_context": "Publication year is explicitly supplied in the question, independently of the gold page."
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does the AI RMF define robustness or generalizability?",
+    "expected_answer": "Maintaining a level of performance under a variety of circumstances.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 19,
+    "evidence_quote": "Robustness or generalizability is defined as the “ability of a system to maintain its level of performance under a variety of circumstances” (Source: ISO/IEC TS 5723:2022)."
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "type": "condition",
+    "question": "According to AI RMF, what test-set conditions and documentation should accompany accuracy measurements?",
+    "expected_answer": "Clearly defined realistic test sets representative of expected use, plus test methodology details in the documentation.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 19,
+    "evidence_quote": "Accuracy measurements should always be paired with clearly defined and realistic test sets – that are representative of conditions of expected use – and details about test methodology; these should be included in associated documentation."
+  },
+  {
+    "id": "Q04",
+    "split": "test",
+    "type": "metadata",
+    "question": "In NIST’s 2023 AI RMF, how is explainability different from interpretability?",
+    "expected_answer": "Explainability represents operating mechanisms; interpretability concerns the meaning of outputs in their intended context.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 21,
+    "evidence_quote": "Explainability refers to a representation of the mechanisms underlying AI systems’ operation, whereas interpretability refers to the meaning of AI systems’ output in the context of their designed functional purposes.",
+    "filter": {
+      "year": 2023
+    },
+    "filter_context": "Publication year is explicitly supplied in the question, independently of the gold page.",
+    "alternative_evidence": [
+      {
+        "source_id": "nist-ai100-1-2023",
+        "page": 22,
+        "quote": "Explainability can answer the question of “how” a decision was made in the system. Interpretability can answer the question of “why” a decision was made by the system and its meaning or context to the user."
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which three broad categories of AI bias does the AI RMF identify?",
+    "expected_answer": "Systemic, computational and statistical, and human-cognitive bias.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 23,
+    "evidence_quote": "NIST has identified three major categories of AI bias to be considered and managed: systemic, computational and statistical, and human-cognitive."
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does the GOVERN function relate to the other AI risk-management functions?",
+    "expected_answer": "It is cross-cutting, infused throughout risk management and enables the other functions.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 27,
+    "evidence_quote": "GOVERN is a cross-cutting function that is infused throughout AI risk management and enables the other functions of the process.",
+    "alternative_evidence": [
+      {
+        "source_id": "nist-ai100-1-2023",
+        "page": 25,
+        "quote": "Governance is designed to be a cross-cutting function to inform and be infused throughout the other three functions."
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "type": "direct",
+    "question": "What are the four functions in the AI RMF Core?",
+    "expected_answer": "GOVERN, MAP, MEASURE, and MANAGE.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 8,
+    "evidence_quote": "These functions – GOVERN, MAP, MEASURE, and MANAGE – are broken down further into categories and subcategories.",
+    "alternative_evidence": [
+      {
+        "source_id": "nist-ai100-1-2023",
+        "page": 25,
+        "quote": "As illustrated in Figure5, the Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE."
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "split": "test",
+    "type": "condition",
+    "question": "Under the MEASURE function, when should AI systems be tested?",
+    "expected_answer": "Before deployment and regularly while operating.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 33,
+    "evidence_quote": "AI systems should be tested before their deployment and regularly while in operation."
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which human values do privacy norms and practices help safeguard in the AI RMF?",
+    "expected_answer": "Human autonomy, identity, and dignity.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 22,
+    "evidence_quote": "Privacy refers generally to the norms and practices that help to safeguard human autonomy, identity, and dignity."
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In AI RMF, what does transparency reveal to people interacting with an AI system?",
+    "expected_answer": "How much information about the system and outputs is available, even if people are unaware they are interacting with AI.",
+    "gold_source_id": "nist-ai100-1-2023",
+    "gold_page": 20,
+    "evidence_quote": "Transparency reflects the extent to which information about an AI system and its outputs is available to individuals interacting with such a system – regardless of whether they are even aware that they are doing so."
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "type": "metadata",
+    "question": "Which four primary considerations guided the GAI Public Working Group in the 2024 profile?",
+    "expected_answer": "Governance, Content Provenance, Pre-deployment Testing, and Incident Disclosure.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 6,
+    "evidence_quote": "The focus of the GAI PWG was limited to four primary considerations relevant to GAI: Governance, Content Provenance, Pre-deployment Testing, and Incident Disclosure (further described in Appendix A).",
+    "filter": {
+      "year": 2024
+    },
+    "filter_context": "Publication year is explicitly supplied in the question, independently of the gold page."
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does confabulation mean in the Generative AI Profile?",
+    "expected_answer": "GAI generates and confidently presents erroneous or false content in response to prompts.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 10,
+    "evidence_quote": "“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts .",
+    "alternative_evidence": [
+      {
+        "source_id": "nist-ai600-1-2024",
+        "page": 8,
+        "quote": "2. Confabulation: The production of confidently stated but erroneous or false content (known colloquially as “hallucinations” or “fabrications”) by which users may be misled or deceived"
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which activities can give generative AI a large energy and environmental footprint?",
+    "expected_answer": "Training, maintaining, and operating models, including inference.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 12,
+    "evidence_quote": "Training, maintaining, and operating (running inference on) GAI systems are resource-intensive activities, with potentially large energy and environmental footprints."
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "type": "condition",
+    "question": "What training-data pattern can cause model collapse, and what can disappear from the output distribution?",
+    "expected_answer": "Over-reliance on synthetic data during training; data points can disappear from the new model’s output distribution.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 13,
+    "evidence_quote": "Model collapse can occur when model training over-relies on synthetic data, resulting in data points disappearing from the distribution of the new model’s outputs."
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does the GAI Profile describe automation bias?",
+    "expected_answer": "Excessive deference to automated systems, including unjustified over-reliance on generative AI output.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 13,
+    "evidence_quote": "Conversely, due to the complexity and increasing reliability of GAI technology, over time, humans may over-rely on GAI systems or may unjustifiably perceive GAI content to be of higher quality than that produced by other sources. This phenomenon is an example of automation bias, or excessive deference to automated systems."
+  },
+  {
+    "id": "Q16",
+    "split": "dev",
+    "type": "metadata",
+    "question": "According to the 2024 profile, how should high-integrity information be linked for traceability?",
+    "expected_answer": "To the original sources, with appropriate evidence.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 13,
+    "evidence_quote": "This information can be linked to the original source(s) with appropriate evidence.",
+    "filter": {
+      "year": 2024
+    },
+    "filter_context": "Publication year is explicitly supplied in the question, independently of the gold page."
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "type": "metadata",
+    "question": "What two primary information-security risks does the 2024 GAI Profile attribute to GAI-based systems?",
+    "expected_answer": "They lower barriers to offensive cyber capabilities and expand the attack surface of GAI systems themselves.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 14,
+    "evidence_quote": "GAI-based systems present two primary information security risks: GAI could potentially discover or enable new cybersecurity risks by lowering the barriers for or easing automated exercise of offensive capabilities; simultaneously, it expands the available attack surface, as GAI itself is vulnerable to attacks like prompt injection or data poisoning.",
+    "filter": {
+      "year": 2024
+    },
+    "filter_context": "Publication year is explicitly supplied in the question, independently of the gold page."
+  },
+  {
+    "id": "Q18",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How does the GAI Profile distinguish direct and indirect prompt injection?",
+    "expected_answer": "Direct attacks submit malicious prompts directly; indirect attacks inject prompts into data an integrated application is likely to retrieve.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 15,
+    "evidence_quote": "In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system , with a variety of downstream negative consequences to interconnected systems. Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved."
+  },
+  {
+    "id": "Q19",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the GAI Profile mean by data poisoning?",
+    "expected_answer": "An adversary compromises a model’s training dataset to manipulate outputs or operation.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 15,
+    "evidence_quote": "Another cybersecurity risk to GAI is data poisoning, in which an adversary compromises a training dataset used by a model to manipulate its output s or operation."
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "type": "condition",
+    "question": "What is an AI RMF profile, and which user constraints is it based on?",
+    "expected_answer": "An implementation of RMF functions, categories, and subcategories for a particular setting or technology, based on user requirements, risk tolerance, and resources.",
+    "gold_source_id": "nist-ai600-1-2024",
+    "gold_page": 5,
+    "evidence_quote": "A profile is an implementation of the AI RMF functions, categories, and subcategories for a specific setting, application, or technology – in this case, Generative AI (GAI) – based on the requirements, risk tolerance, and resources of the Framework user.",
+    "alternative_evidence": [
+      {
+        "source_id": "nist-ai100-1-2023",
+        "page": 38,
+        "quote": "AI RMF use-case profiles are implementations of the AI RMF functions, categories, and subcategories for a specific setting or application based on the requirements, risk tolerance, and resources of the Framework user: for example, an AI RMF hiring profile or an AI RMF fair housing profile."
+      }
+    ]
+  }
+]

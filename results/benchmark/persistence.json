@@ -1,0 +1,17 @@
+{
+  "A": {
+    "count_before_reinsert": 217,
+    "count_after_reinsert": 217,
+    "count_after_reopen": 217
+  },
+  "B": {
+    "count_before_reinsert": 273,
+    "count_after_reinsert": 273,
+    "count_after_reopen": 273
+  },
+  "C": {
+    "count_before_reinsert": 273,
+    "count_after_reinsert": 273,
+    "count_after_reopen": 273
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "Xenova/all-MiniLM-L6-v2",
+    "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "dimensions": 384,
+    "max_tokens": 256,
+    "batch_size": 16,
+    "threads": 2,
+    "pooling": "attention-mask mean, L2 normalization",
+    "license": "Apache-2.0",
+    "files": {
+      "tokenizer.json": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0",
+      "onnx/model_quantized.onnx": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1"
+    }
+  },
+  "store": {"backend": "Qdrant local", "path": "storage/qdrant-751bff37", "metric": "cosine", "search": "exact"},
+  "strategies": {
+    "A": {"chunking": "fixed", "max_chars": 640, "overlap": 0, "use_filter": false},
+    "B": {"chunking": "paragraph", "max_chars": 640, "overlap": 0, "use_filter": false},
+    "C": {"chunking": "paragraph", "max_chars": 640, "overlap": 0, "use_filter": true}
+  },
+  "selection_policy": "Dev Evidence Hit@3 first, then dev Hit@1, then fewer chunks, then alphabetical strategy ID. Freeze selection before any test evaluation; never retune on test.",
+  "top_k": 3,
+  "minimum_content_pages": 30,
+  "language": "English corpus and questions; Vietnamese student report"
+}

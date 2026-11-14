@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-11-14T03:58:08.946118+00:00",
+  "hashes": {
+    "data/manifest.json": "f8a3c72e8c31102d891920082d04536c9f34b8b25cceee56530e30585824f182",
+    "data/normalized_pages.jsonl": "c7e8c1a1b01b3f0845cdcda40cf326c18d1f7be7b93deaeab5bf14f4110e1110",
+    "configs/experiment.json": "f5e7b50fed3a665cedd996c431f711df1d318e213dc38395008e9a4ba41bfe59",
+    "benchmark/questions.json": "12a38167d6e80e76fd22e4a9895755d7e8c090a6b02ba6dec97d1aa9f4433978",
+    "benchmark/coherence_anchors.json": "be92aedb88885649144dbb8955c6a8e2f3d6493faf2597afa70a3821a152eeaf"
+  },
+  "dev_ids": [
+    "Q01",
+    "Q02",
+    "Q03",
+    "Q05",
+    "Q06",
+    "Q07",
+    "Q09",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q14",
+    "Q15",
+    "Q16",
+    "Q18",
+    "Q19"
+  ],
+  "test_ids": [
+    "Q04",
+    "Q08",
+    "Q13",
+    "Q17",
+    "Q20"
+  ],
+  "selection_policy": "Dev Evidence Hit@3 first, then dev Hit@1, then fewer chunks, then alphabetical strategy ID. Freeze selection before any test evaluation; never retune on test.",
+  "corpus_retrieval_runs_before_freeze": 0
+}
